@@ -1,4 +1,4 @@
-package Automation.Seleniumbasic;
+//what happend to me package Automation.Seleniumbasic;
 
 import java.util.concurrent.TimeUnit;
 
@@ -19,7 +19,11 @@ public class BookmyShow {
 		driver.findElement(By.xpath("//*[@height=\"14px\"]")).click();
 		driver.findElement(By.xpath("//button[contains(text(),'Not Now')]")).click();
 		driver.findElement(By.xpath("//div[contains(text(),'Login / Register')]")).click();
+<<<<<<< HEAD
 		//driver.findElement(By.xpath("//label[contains(text(),'Continue with mobile number')]")).click();
+=======
+		// this is the change branch VEERA//driver.findElement(By.xpath("//label[contains(text(),'Continue with mobile number')]")).click();
+>>>>>>> 4d5e78725f728f837e659b9af8e08aa8a770adb2
 		driver.findElement(By.xpath("//input[@id=\"mobileNo\"]")).sendKeys("8074534449");
 		driver.findElement(By.xpath("//button[contains(text(),'Continue')]")).click();
 		//Successfully automated this script till we have got one time password.
