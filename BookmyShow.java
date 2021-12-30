@@ -19,7 +19,7 @@ public class BookmyShow {
 		driver.findElement(By.xpath("//*[@height=\"14px\"]")).click();
 		driver.findElement(By.xpath("//button[contains(text(),'Not Now')]")).click();
 		driver.findElement(By.xpath("//div[contains(text(),'Login / Register')]")).click();
-		// this is the change branch change also//driver.findElement(By.xpath("//label[contains(text(),'Continue with mobile number')]")).click();
+		// this is the change branch VEERA//driver.findElement(By.xpath("//label[contains(text(),'Continue with mobile number')]")).click();
 		driver.findElement(By.xpath("//input[@id=\"mobileNo\"]")).sendKeys("8074534449");
 		driver.findElement(By.xpath("//button[contains(text(),'Continue')]")).click();
 		//Successfully automated this script till we have got one time password.
